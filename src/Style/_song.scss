@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+.song_container{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 20%;
+        border-radius: 50%;
+    }
+    h2{
+        padding: 3rem 1rem 1rem 1rem;
+        font-family: 'Fugaz One', cursive;
+        color: rgb(54, 54, 54)
+    }
+    h3{
+        font-size: 1.3rem;
+        font-family: 'Markazi Text', serif;
+        color: rgb(54, 54, 54)
+    }
+}
