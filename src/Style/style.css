@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.player {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time-control {
+  width: 50%;
+  display: flex;
+}
+.time-control input {
+  width: 100%;
+  padding-top: 0;
+}
+.time-control p {
+  padding: 1rem;
+}
+
+.play-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 50%;
+}
+.play-control svg {
+  cursor: pointer;
+}
+
+.song_container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.song_container img {
+  width: 20%;
+  border-radius: 50%;
+}
+.song_container h2 {
+  padding: 3rem 1rem 1rem 1rem;
+  font-family: "Fugaz One", cursive;
+  color: rgb(54, 54, 54);
+}
+.song_container h3 {
+  font-size: 1.3rem;
+  font-family: "Markazi Text", serif;
+  color: rgb(54, 54, 54);
+}/*# sourceMappingURL=style.css.map */
