@@ -1,11 +1,34 @@
 
 
-export const SongListItem = ({song}) =>{
+export const SongListItem = ({song, setCurrentSong,songs,setSongs}) =>{
+   const songSelect= () =>{
+    const selectedSong = songs.filter((item) => item.id === song.id);
+    setCurrentSong(selectedSong[0]);
+
+    const newSongs = songs.map((item) =>{
+        if(item.id === song.id){
+            return{
+                ...item,
+                active: true
+            } 
+        }else {
+                return {
+                    ...item,
+                    active: false
+                }
+            }
+    })
+    setSongs(newSongs);
+
+    }
+   
     return(
-        <div className="song_container">
+        <div onClick={songSelect} className={`song-item ${song.active ? "selected" : "" }`}>
             <img src={song.cover}/>
-            <h2>{song.name}</h2>
-            <h3>{song.artist}</h3>
+            <div className="song-description">
+            <h3>{song.name}</h3>
+            <h4>{song.artist}</h4>
+            </div>
         </div>
     )
 }
