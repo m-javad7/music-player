@@ -9,6 +9,7 @@
   background-color: rgb(228,226,226);
   box-shadow: 2px 2px 50px rgb(241,235,235);
   overflow: scroll;
+  transition: all 1s linear;
   h2{
     padding: 1vw;
     text-align: center;
@@ -66,4 +67,7 @@
 }
 .selected{
   background-color: rgb(107, 126, 148);
+}
+.displayList{
+  transform: translateX(-30vw);
 }

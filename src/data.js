@@ -9,7 +9,7 @@ export const SongData=()=>{
             audio: "https://mp3.chillhop.com/serve.php/?mp3=21648",
             color: ["65383A","D0906D"],
             id: uuidv4(),
-            active: false
+            active: true
         },
         {
             name: "What If I Told You",
@@ -37,7 +37,7 @@ export const SongData=()=>{
             audio: "https://mp3.chillhop.com/serve.php/?mp3=7873",
             color: ["65383A","D0906D"],
             id: uuidv4(),
-            active: true
+            active: false
             
         },
         {

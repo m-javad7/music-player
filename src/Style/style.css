@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,10 +23,23 @@
 }
 .time-control input {
   width: 100%;
-  padding-top: 0;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
 }
 .time-control p {
-  padding: 1rem;
+  padding: 0 1rem;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background-color: black;
 }
 
 .play-control {
@@ -37,6 +51,27 @@
 }
 .play-control svg {
   cursor: pointer;
+}
+
+.track {
+  background: lightblue;
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.animate-track {
+  background: rgb(204, 204, 204);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(20%);
+  pointer-events: none;
+  border-radius: 1rem;
 }
 
 .song_container {
@@ -70,6 +105,7 @@
   background-color: rgb(228, 226, 226);
   box-shadow: 2px 2px 50px rgb(241, 235, 235);
   overflow: scroll;
+  transition: all 1s linear;
 }
 .song-list h2 {
   padding: 1vw;
@@ -135,4 +171,37 @@
 
 .selected {
   background-color: rgb(107, 126, 148);
+}
+
+.displayList {
+  transform: translateX(-30vw);
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav button {
+  background: transparent;
+  border: 2px solid rgb(65, 65, 65);
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 0.3 ease;
+}
+nav button:hover {
+  background: rgb(65, 65, 65);
+  color: white;
+  border: 2px solid rgb(153, 153, 153);
+}
+
+#button-toggle, #app-tittle {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#app-tittle {
+  color: orange;
 }/*# sourceMappingURL=style.css.map */
