@@ -11,7 +11,7 @@ const [currentSong, setCurrentSong] = useState(songs[0]);
 const [isPlaying, setIsPlaying] = useState(false);
 const [displayListSong, setDisplayListSong] = useState(false);
   return (
-    <div className="App">
+    <div className={`App ${displayListSong ? "activeList" : ""}`}>
       <ToggleList displayListSong={displayListSong} setDisplayListSong={setDisplayListSong}  />
       <Song currentSong={currentSong}/>
       <Player setSongs={setSongs} currentSong={currentSong} setCurrentSong={setCurrentSong} isPlaying={isPlaying} setIsPlaying={setIsPlaying} songs={songs}/>

@@ -27,3 +27,19 @@ nav{
 #app-tittle{
     color: orange;
 }
+
+@media screen and (max-width: 768px) {
+    nav{
+        button{
+            z-index: 10;
+            position: fixed;
+            top: 0.6vh;
+            right: 5vw;
+        }
+    }
+    #app-tittle{
+        position: fixed;
+        top: 0.6vh;
+        left: 5vw;
+    }
+}

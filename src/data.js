@@ -21,55 +21,65 @@ export const SongData=()=>{
             active: false
         },
         {
-            name: "Whale Call",
-            cover: "https://chillhop.com/wp-content/uploads/2020/07/385d44fc6335bf676b30be524bcdfd7d640716a4-1024x1024.jpg",
-            artist: "Saib",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=8099",
-            color: ["#65383A","#D0906D"],
-            id: uuidv4(),
-            active: false
-            
-        },
-        {
-            name: "Build",
-            cover: "https://chillhop.com/wp-content/uploads/2020/07/f5170130ca62e18fb3928feb3d851f3f07f77e18-1024x1024.jpg",
-            artist: "Yasper, Louk",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=7873",
-            color: ["#65383A","#D0906D"],
-            id: uuidv4(),
-            active: false
-            
-        },
-        {
-            name: "Rockaway 5pm",
-            cover: "https://chillhop.com/wp-content/uploads/2020/07/8ead77b24ce86e871c31691dec6a5983b9533db1-1024x1024.jpg",
-            artist: "auv",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9157",
-            color: ["#65383A","#D0906D"],
-            id: uuidv4(),
-            active: false
-            
-        },
-        {
-            name: "Magenta Forever",
-            cover: "https://chillhop.com/wp-content/uploads/2020/10/23fdd99adc3e16abcb67b004ea3e748ebf433a49-1024x1024.jpg",
-            artist: "Aviino",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10458",
-            color: ["#65383A","#D0906D"],
-            id: uuidv4(),
-            active: false
-            
-        },
-        {
-            name: "Dojo",
-            cover: "https://chillhop.com/wp-content/uploads/2020/04/35317644d6db24c3ca144619d03f2805fa702472-1024x1024.jpg",
-            artist: "SwuM",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=8002",
-            color: ["#65383A","#D0906D"],
-            id: uuidv4(),
-            active: false
-            
-        },
+			name: "Beaver Creek",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "Aso, Middle School, Aviino",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Daylight",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+			artist: "Aiguille",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
+			color: ["#EF8EA9", "#ab417f"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Keep Going",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+			artist: "Swørn",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
+			color: ["#CD607D", "#c94043"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Nightfall",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+			artist: "Aiguille",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
+			color: ["#EF8EA9", "#ab417f"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Reflection",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+			artist: "Swørn",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
+			color: ["#CD607D", "#c94043"],
+			id: uuidv4(),
+			active: false,
+		},
+		{
+			name: "Under the City Stars",
+			cover:
+				"https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+			artist: "Aso, Middle School, Aviino",
+			audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
+			color: ["#205950", "#2ab3bf"],
+			id: uuidv4(),
+			active: false,
+		},
         {
             name: "Caffeine",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/858b533ba20ff95bf5b401089b195d1a8cb43870-1024x1024.jpg",

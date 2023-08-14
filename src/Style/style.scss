@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.App{
+    transition: all 1s ease;
+}
+.activeList{
+    margin-left: 15%
+}
+
 @import "./player";
 @import "./song";
 @import "./songlist";
