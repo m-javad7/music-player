@@ -39,7 +39,6 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 16px;
   width: 16px;
-  background-color: black;
 }
 
 .play-control {
@@ -54,7 +53,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .track {
-  background: lightblue;
+  background: rgb(255, 222, 154);
   width: 100%;
   height: 1rem;
   position: relative;
@@ -63,13 +62,13 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .animate-track {
-  background: rgb(204, 204, 204);
+  background: rgb(111, 111, 111);
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateX(20%);
+  transform: translateX(100%);
   pointer-events: none;
   border-radius: 1rem;
 }
